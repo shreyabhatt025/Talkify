@@ -1,0 +1,24 @@
+{
+  "name": "talkify-server",
+  "version": "1.0.0",
+  "description": "real time chat application ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyabhatt025/Talkify.git"
+  },
+  "author": "Shreya Bhatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreyabhatt025/Talkify/issues"
+  },
+  "homepage": "https://github.com/shreyabhatt025/Talkify#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.0"
+  }
+}
