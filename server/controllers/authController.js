@@ -78,7 +78,7 @@ router.post('/login', async (req, res) => {
         // npm i jsonwebtoken = ye package install karna hai
         // to create jsonwebtoken we need 2 things DATA , SECRET KEY ( cretaed in config.env file L3)
 
-        const token = jwt.sing({
+        const token = jwt.sign({
           userId: user._id} , process.env.SECRET_KEY , {expiresIn: "1d"} ); 
 
           res.send({
