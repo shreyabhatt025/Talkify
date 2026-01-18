@@ -17,7 +17,9 @@ const userSchema = new mongoose.Schema({
     },
     password:{
         type:String,
-        required:true
+        required:true,
+        select:false,  //jab bhi hum user ka data db se fetch karenge to password field ko exclude kar dena chahiye , it will be not shown to us request
+        minlength:6
     }
 } ,{timestamps:true})
 

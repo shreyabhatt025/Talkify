@@ -1,4 +1,5 @@
-// server.js is main entry point of node js application
+// server.js is main entry point of node js application , ye database se connect krega 
+// server ko start krega aur app.js file ko import krega jaha pe sara logic likha hoga ki jab bhi koi request aayegi to uska kya response dena hai
 
 const dotenv = require('dotenv'); //dotenv package that let our app read key value pair and store in config.env file
 
